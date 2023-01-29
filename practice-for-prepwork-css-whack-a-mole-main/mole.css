@@ -4,16 +4,19 @@
   width: 640px;
   position: relative;
   display: inline-block;
+  overflow: hidden;
+
 }
 
-.wgs_mole-head {
+.wgs__mole-head {
   height: 356px;
   width: 376px;
   left: 125px;
   position: absolute;
+  transition: margin-top 0.25s;
 }
 
-.wgs_dirt-pile {
+.wgs__dirt-pile {
   height: 220px;
   width: 640px;
   bottom: 0px;
